@@ -20,7 +20,7 @@ class MyWidget(QWidget):
             qp.setBrush(QColor(255, 255, 0))
             for i in range(10):
                 m = random.randint(20, 200)
-                qp.drawEllipse(random.randint(0, 600), random.randint( 0, 500), m, m)
+                qp.drawEllipse(random.randint(0, 600), random.randint(0, 500), m, m)
             qp.end()
 
     def run(self):
